@@ -14,6 +14,9 @@
 sudo cp yi /usr/share/X11/xkb/symbols/yi &&
 sudo chown root:root /usr/share/X11/xkb/symbols/yi &&
 
+# Copy Yiddish flag icon into relevant directory
+sudo cp yi.png /usr/share/iso-flag-png &&
+
 # Add Yiddish to rules/evdev.xml
 
 sudo sed -i 's_<\/layoutList>_<layout>\
